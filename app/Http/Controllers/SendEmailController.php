@@ -44,7 +44,7 @@ class SendEmailController extends Controller
                     'phone'=>$selectUser->phone,
                     'page'=>$selectUser->page,
                     'formName'=>$selectUser->formName,
-                    'create_at'=>$selectUser->create_at,
+                    'created_at'=>$selectUser->created_at,
                 ],
                 function($message) use ($data)
                 {
