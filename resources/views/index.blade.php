@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="{!! asset('style/styles.css') !!}">
+    <meta name="_token" content="{!! csrf_token() !!}"/>
+
 </head>
 
 <body>
@@ -97,16 +99,16 @@
                         <br>при подаче заявки через сайт.
                     </div>
 
-                    <form action="">
+                    <form action="/header_form" id="headerForm">
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="Ваше имя">
+                            <input class="name" id="header__name" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="+7 ">
+                            <input class="name" id="header__phone" type="text" placeholder="+7 ">
                         </div>
                         <input type="submit" value="Оставить заявку" class="baner__form--submit">
                     </form>
@@ -663,14 +665,21 @@
         </div>
     </section>
 
-    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide small-dialog">
         <h1>Ожидайте звонка!</h1>
         <p>Вы уже оставляли заявку, ожидайте
             <br> звонка менеджера в ближайшее время.</p>
     </div>
 
+    <div id="small-dialog1" class="zoom-anim-dialog mfp-hide small-dialog">
+        <h1>Спасибо! </h1>
+        <p>Ваша заявка была принята, менеджер<br> перезвонит Вам в ближайшее время.</p>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="{!! asset('popup.js') !!}"></script>
+    <script src="{!! asset('cookie.js') !!}"></script>
+    <script src="{!! asset('masked.js') !!}"></script>
     <script src="{!! asset('index.js') !!}"></script>
 </body>
 

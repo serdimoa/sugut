@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
+
+Route::get('/','PageFirstController@index');
+
+Route::post('header_form','SendEmailController@sendHeader');
+//Route::get('header_form','SendEmailController@sendHeader');
 
 Route::get('logout','AdminController@logout');
 

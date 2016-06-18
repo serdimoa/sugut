@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Admin;
+use App\Models\Recipient;
 
 class DatabaseSeeder extends Seeder
 {
@@ -21,10 +21,16 @@ class DatabaseSeeder extends Seeder
 class AdminSeeder extends Seeder {
     public function run()
     {
-        DB::table('admins')->delete();
-        Admin::create([
-            'login'=>'admin',
-            'password'=>'27051993'
+        Recipient::create([
+            'email'=>'kravcov@1aitisha.ru',
+            'last_recipient' => 0
         ]);
+
+        Recipient::create([
+            'email'=>'kravcov@13aitisha.ru',
+            'last_recipient' => 0
+        ]);
+
+
     }
 }

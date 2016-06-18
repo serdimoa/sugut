@@ -1,11 +1,33 @@
-function openPopup(el) { // get the class name in arguments here
-    $.magnificPopup.open({
-        items: {
-            src: '#small-dialog'
-        , }
-        , type: 'inline'
-    });
+function openPopup(el) {
+    // get the class name in arguments here
+
+    switch (el) {
+        case 1:
+        case "1":
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-dialog1'
+
+                },
+                type: 'inline'
+            });
+            break;
+        case 2:
+        case "2":
+            $.magnificPopup.open({
+                items: {
+                    src: '#small-dialog'
+
+                },
+                type: 'inline'
+            });
+            break;
+
+    }
+
+
 }
+
 (function ($) {
     $.fn.goTo = function () {
         $('html, body').animate({
@@ -16,6 +38,10 @@ function openPopup(el) { // get the class name in arguments here
 })(jQuery);
 
 $(document).ready(function () {
+    $('#header__phone').mask("+7 (999) 999-9999");
+    $.ajaxSetup({
+        headers: {'X-CSRF-Token': $('meta[name=_token]').attr('content')}
+    });
     $('.image-popup-vertical-fit').magnificPopup({
         type: 'image'
         , closeOnContentClick: true
@@ -63,10 +89,41 @@ $(document).ready(function () {
             if ($('#about__micro').length)
                 $('#about__micro').goTo();
         });
-    if ($('.baner__form--submit').length)
-        $('.baner__form--submit').click(function (e) {
-            e.preventDefault();
-            openPopup(this.className);
 
-        });
+
+    $('#headerForm').submit(function (e) {
+        e.preventDefault();
+        if (checkActive()) {
+            var url = "/header_form";
+            var $post = {};
+            $post.form_name='форма с шапки';
+            $post.page=window.location.href;
+            $post.name = $(this).find($('#header__name')).val();
+            $post.phone = $(this).find($('#header__phone')).val();
+            console.log($post.phone);
+            var xnr = $.ajax({
+                type: "post",
+                url: url,
+                data: $post,
+                success: function (data) {
+                    openPopup(data);
+                    xnr.abort();
+                    return data;
+                }
+            });
+        }
+        return false;
+    });
+
 });
+
+function checkActive() {
+    if (Cookies.get('isActive') === undefined) {
+        // Cookies.set('isActive', 'true', {expires: 1});
+        openPopup(1);
+        return true;
+    } else {
+        openPopup(2);
+        return false;
+    }
+}
