@@ -15,12 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::controllers([
-    'auth'=>'Auth\AuthController' ,
-    'password' => 'Auth\PasswordController'
-]);
 
-//Route::get('admin','AdminController@index');
 Route::get('logout','AdminController@logout');
 
 $router->resource('admin', 'AdminController');
