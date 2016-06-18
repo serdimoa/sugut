@@ -1,7 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="da0e5df3-baf1-46a6-9495-b94c5882a894" name="Default" comment="" />
+=======
+    <list default="true" id="da0e5df3-baf1-46a6-9495-b94c5882a894" name="Default" comment="some">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/10variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/1variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/2variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/3variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/4variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/5variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/6variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/7variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/8variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/9variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/IMG_9002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/IMG_9008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/divan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/house.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/1/sps6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/10variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/1variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/2variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/3variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/4variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/5variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/6variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/7variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/8variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/9variant.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/Слой 101.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/Слой 102.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/Слой 103.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/Слой 104.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/2/Слой 105.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_18 копия.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_2 копия.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_20 копия.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_21 копия.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_45.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_46.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/big/3/25-ти этажки_9 копия.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/10variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/1variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/3variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/4variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/5412.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/5413.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/5variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/6variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/7variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/8variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/9variant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/A46-TrendArrow-Orange-GoUp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Fill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/IMG_9002.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/IMG_9008.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/User.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/arrowfast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/arrowss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/background-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bgenes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/blues.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/busket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/city.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/colornore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/duck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/foto4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/foto5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/gazprom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/greybtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/hanty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/imgtochange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/listicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo-enes20113.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/oformlenie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/percent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/plank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portfel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portmone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/prime.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/raifa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/redbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/remont.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/saleromb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sber.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sngb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/sps6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/uralsib.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video__image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/vtb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/zaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Слой-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Фотографии-И.Швец---38й-й-мкр.,-вид-общий-и-квартир-(15).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Black.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-BlackItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Bold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-BoldItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Heavy.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-HeavyItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Italic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-LightItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Medium.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-MediumItaicl.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Roman.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-Thin.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-ThinItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-UltraLight.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/HelveticaNeueCyr-UltraLightItalic.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-BOOK.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-BOOK.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-BOOK.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-REG.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-REG.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-REG.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-light-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-light-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-light-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-medium-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-medium-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-medium-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-medium-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-thin-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-thin-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-thin-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/helveticaneuecyr-thin-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-book.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-light.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-reg.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-sebold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-sebold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-sebold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-sebold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-thin-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-thin-webfont.eot@" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-thin-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-thin-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-xthin-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-xthin-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-xthin-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/_bootstrap-variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/_popup.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/_settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/blocks/baner/_baner.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/blocks/header/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/blocks/page/_page.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-BOOK.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/PFBEAUSANSPRO-REG.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/fonts/pfbeausanspro-sebold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/style/styles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+    </list>
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
     <ignored path="surgut_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -43,7 +220,11 @@
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_16_020657_create_table_recipient.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
+<<<<<<< HEAD
               <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+=======
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
@@ -52,9 +233,17 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="238">
               <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
+=======
+            <state relative-caret-position="561">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
             </state>
           </provider>
         </entry>
@@ -69,11 +258,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
@@ -82,8 +279,13 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2652">
               <caret line="156" column="50" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
+=======
+            <state relative-caret-position="323">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="55" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
@@ -109,31 +311,55 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="2016_06_16_005107_create_sessions_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_16_005107_create_sessions_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="IdeHelperServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/IdeHelperServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="17" column="25" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="30" />
+=======
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="673" column="36" selection-start-line="673" selection-start-column="36" selection-end-line="673" selection-end-column="36" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
               <folding />
             </state>
           </provider>
@@ -176,10 +402,15 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_06_16_020657_create_table_recipient.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/Models/Recipient.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_06_15_225442_add_votes_to_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_06_15_223543_create_admins_table.php" />
+=======
+        <option value="$PROJECT_DIR$/resources/views/index.html" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
@@ -233,7 +464,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -306,6 +540,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sugut" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surgut_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="surgut_project" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -433,6 +681,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,6 +787,7 @@
       <option name="presentableId" value="Default" />
       <updated>1466027709566</updated>
       <workItem from="1466027713463" duration="896000" />
+<<<<<<< HEAD
       <workItem from="1466028723588" duration="14712000" />
       <workItem from="1466066514710" duration="1029000" />
       <workItem from="1466067603942" duration="684000" />
@@ -547,18 +800,36 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1466227417947</updated>
+=======
+      <workItem from="1466028723588" duration="15523000" />
+      <workItem from="1466221495206" duration="1110000" />
+    </task>
+    <task id="LOCAL-00001" summary="some">
+      <created>1466063162213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466063162213</updated>
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="20945000" />
+=======
+    <option name="totallyTimeSpent" value="17529000" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.50851583" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.4914842" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.50851583" order="2" side_tool="true" content_ui="tabs" />
@@ -568,17 +839,29 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.50851583" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26492536" sideWeight="0.4914842" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.50851583" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3445287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3453355" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,8 +900,13 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+<<<<<<< HEAD
     <MESSAGE value="213" />
     <option name="LAST_COMMIT_MESSAGE" value="213" />
+=======
+    <MESSAGE value="some" />
+    <option name="LAST_COMMIT_MESSAGE" value="some" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -664,6 +952,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_16_020657_create_table_recipient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12835">
+          <caret line="758" column="20" selection-start-line="758" selection-start-column="20" selection-end-line="758" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -688,6 +1058,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -695,6 +1066,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
@@ -721,8 +1094,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="272">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
@@ -736,36 +1114,61 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-647">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="187">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin__base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+=======
+        <state relative-caret-position="272">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="51">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+=======
+        <state relative-caret-position="187">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="561">
           <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
+=======
+        <state relative-caret-position="221">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
@@ -822,14 +1225,23 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="289">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+=======
+        <state relative-caret-position="-647">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
@@ -842,16 +1254,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/artisan">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="170">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
+=======
+        <state relative-caret-position="238">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
@@ -870,6 +1292,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper/src/IdeHelperServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -879,6 +1302,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -900,6 +1326,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/_ide_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-169073">
@@ -921,14 +1348,28 @@
         <state relative-caret-position="289">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_15_225246_add_votes_to_users_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_16_005107_create_sessions_table.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="55" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
           <folding />
         </state>
       </provider>
@@ -970,8 +1411,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="673" column="36" selection-start-line="673" selection-start-column="36" selection-end-line="673" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+>>>>>>> 121bd50905e40fc108e36c063165463e27753a13
           <folding />
         </state>
       </provider>
