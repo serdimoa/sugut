@@ -21,13 +21,13 @@
 }
 
 .about__micro {
-    .images {
+  .images {
         @include make-xs-column(6);
         margin-top: 50px;
     }
     .text {
         @include make-xs-column(6);
-        h2 {
+        h1 {
             color: #000000;
             font: 300 34px PFBeauSansPro;
             b {
@@ -276,7 +276,7 @@
     .bank {
         background: #fff;
         box-shadow: 1px 2px 5px 0.00px rgba(0, 0, 0, 0.17);
-        @include make-xs-column(2.8);
+        @include make-xs-column(2.83);
         margin-left: 7px;
         margin-right: 7px;
         height: 410px;
@@ -502,6 +502,9 @@
             font: 200 14px HelveticaNeueCyr;
         }
     }
+}
+.extra{
+  p{text-align: center;}
 }
 .panel {
     height: calc(100% - 175px);

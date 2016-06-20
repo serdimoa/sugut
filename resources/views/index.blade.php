@@ -11,6 +11,7 @@
 
 <body>
     <div class="container-fluid">
+        <div class="row">
         <div class="container">
             <header class="header">
                 <div class="header__logo">
@@ -19,11 +20,11 @@
                 <div class="header__nav">
                     <ul class="nav nav-tabs">
                         <li role="presentation" class="active">
-                            <a href="/"> <i class="header__nav--geo">
+                            <a href="{{env('HOME')}}"> <i class="header__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>38 микрорайон</a>
                         </li>
-                        <li role="presentation"><a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1</a> </li>
-                        <li role="presentation"><a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a></li>
+                        <li role="presentation"><a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}">ул. Ивана Захарова 12/1</a> </li>
+                        <li role="presentation"><a href="/{{env('3PAGE','melik-karamova-40,40(1)')}}">ул. Мелик-Карамаова 40, 40/1</a></li>
                     </ul>
                 </div>
                 <div class="header__phone">
@@ -32,6 +33,7 @@
                     <div class="header__phone--address">Сургут, Тюменский тракт, 2/1</div>
                 </div>
             </header>
+        </div>
         </div>
         <span class="line"></span>
     </div>
@@ -42,10 +44,10 @@
                 <div class="baner__left">
                     <div class="row">
                         <div class="good__price">
-                            <h1><p class="good__price--harry">Успейте купить
+                            <p class="good__price--harry">Успейте купить
                             </p>
                             <p class="good__price--where">квартиру в Сургуте</p>
-                            <p class="good__price--much">по цене от 43 000 руб./м&#178;!</p></h1>
+                            <p class="good__price--much">по цене от 43 000 руб./м&#178;!</p>
                         </div>
                         <div class="arrow">
                             <img src="images/arrow.png" alt="">
@@ -105,7 +107,7 @@
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input required class="name" id="header__name name--input" type="text" placeholder="Ваше имя">
+                            <input required class="name name--input" id="header__name " type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
@@ -117,7 +119,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="">
                 <div class="arrow-down text-center">
                     <a id="scrollToabout" href="#about__micro">
                         <img src="/images/5412.png" alt="">
@@ -163,8 +165,8 @@
                     <img src="/images/imgtochange.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="text">
-                    <h2>О жилом комплексе <br>
-<b>микрорайона №38</b></h2>
+                    <h1>О жилом комплексе <br>
+<b>микрорайона №38</b></h1>
                     <span><img src="/images/plank.png"
               alt=""></span>
                     <p>38-й мкр. расположен в очень удачном месте относительно городской инфраструктуры. Рядом находится ТРЦ «Аура», недалеко располагаются железнодорожный вокзал и выезд из города. В непосредственной близости имеется лесок, который в ближайшем будущем станет прекрасным мини-парком. Кроме того, тут возведен детский сад (их здесь предполагается построить еще два, также планируется строительство школы) — то есть проблем с определением мест, куда будет ходить ребенок, нет. В-третьих, на территории комплекса имеется большое дворовое пространство с детскими игровыми площадками, построен двухуровневый паркинг, а пешеходные дорожки во дворах отделены от проезжей зоны для безопасности жильцов. Также можно отметить, что дома 38-го микрорайона построены по мировым стандартам энергоэффективности, имеют специальную защиту от промерзания стен и оснащены новейшим оборудованием, позволяющим рационально расходовать электричество, воду и тепло.</p>
@@ -237,8 +239,11 @@
                     </p>
                 </div>
             </div>
-            <div class="row whiteblock">
+            <div class="whiteblock">
+                <div class="row">
                 <h2 class="black">Покупать выгодно квартиры в нашем микрорайоне!</h2>
+                </div>
+                <div class="row">
                 <div class="icon--romb">
                     <img src="/images/portmone.png" alt="">
                     <h3>Самые низкие цены<br>
@@ -275,6 +280,7 @@
 </h3>
                     <p>Сроки выполнения ремонта
                         <br>от 1 недели на стадии оформления документов.</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -326,58 +332,58 @@
             </div>
         </div>
     </section>
-    <section class="plan">
-        <div class="container">
+    <section class="plan ">
+        <div class="container ">
             <div class="row">
                 <h2>Выберите планировку для квартиры:</h2>
             </div>
             <div class="row mar30">
                 <div class="variant">
-                    <a href="big/1/1variant.jpg" class="image-popup-vertical-fit" title="1 вариант">
+                    <a href="big/1/1variant.jpg" class="image-popup-vertical-fit" title="1 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/1variant.png" alt="">
                     </a>
                 </div>
                 <div class="variant">
-                    <a href="big/1/2variant.jpg" class="image-popup-vertical-fit" title="2 вариант">
+                    <a href="big/1/2variant.jpg" class="image-popup-vertical-fit" title="2 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/2variant.png" alt="">
                     </a>
                 </div>
                 <div class="variant">
-                    <a href="big/1/3variant.jpg" class="image-popup-vertical-fit" title="3 вариант">
+                    <a href="big/1/3variant.jpg" class="image-popup-vertical-fit" title="3 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/3variant.png" alt=""></a>
                 </div>
                 <div class="variant">
-                    <a href="big/1/4variant.jpg" class="image-popup-vertical-fit" title="4 вариант">
+                    <a href="big/1/4variant.jpg" class="image-popup-vertical-fit" title="4 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/4variant.png" alt=""></a>
                 </div>
                 <div class="variant">
-                    <a href="big/1/1variant.jpg" class="image-popup-vertical-fit" title="1 вариант">
+                    <a href="big/1/1variant.jpg" class="image-popup-vertical-fit" title="1 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/5variant.png" alt=""></a>
                 </div>
             </div>
             <div class="row mar30">
                 <div class="variant">
-                    <a href="big/1/6variant.jpg" class="image-popup-vertical-fit" title="6 вариант">
+                    <a href="big/1/6variant.jpg" class="image-popup-vertical-fit" title="6 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/6variant.png" alt=""></a>
 
                 </div>
                 <div class="variant">
-                    <a href="big/1/7variant.jpg" class="image-popup-vertical-fit" title="7 вариант">
+                    <a href="big/1/7variant.jpg" class="image-popup-vertical-fit" title="7 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/7variant.png" alt=""></a>
 
                 </div>
                 <div class="variant">
-                    <a href="big/1/8variant.jpg" class="image-popup-vertical-fit" title="8 вариант">
+                    <a href="big/1/8variant.jpg" class="image-popup-vertical-fit" title="8 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/8variant.png" alt=""></a>
 
                 </div>
                 <div class="variant">
-                    <a href="big/1/9variant.jpg" class="image-popup-vertical-fit" title="9 вариант">
+                    <a href="big/1/9variant.jpg" class="image-popup-vertical-fit" title="9 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/9variant.png" alt=""></a>
 
                 </div>
                 <div class="variant">
-                    <a href="big/1/10variant.jpg" class="image-popup-vertical-fit" title="10 вариант">
+                    <a href="big/1/10variant.jpg" class="image-popup-vertical-fit" title="10 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img src="/images/10variant.png" alt=""></a>
 
                 </div>
@@ -418,7 +424,7 @@
                         <img src="/images/hanty.png" alt="">
                     </div>
                     <div class="panel ">
-                        <div class="front card">           
+                        <div class="front card">
                                     <p>Первоначальный взнос:<span>от 20%</span></p>
                         <p>Процентная ставка:<span>от 13.5%</span></p>
                         <a href="#" class="greybtn">От 5 до 30 лет</a>
@@ -548,7 +554,7 @@
 
                         </div>
 
-                    
+
                     </div>
                     <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
@@ -606,32 +612,56 @@
                     </a>
                 </div>
             </div>
-            <div class="row">
                     <div id="lazy-container">
-                      <a href="/big/2/sps6.jpg" title="">
-                        <img data-src="images/26.png" alt="" class="img lazy">
-                        
-                    </a>
-                    <a href="big/2/IMG_9002.jpg" title="">
-                        <img data-src="images/27.png" alt="" title="" class="img lazy">
-                        
-                    </a>
-                    <a href="big/2/IMG_9008.jpg" title="">
-                        <img data-src="images/28.png" alt="" class="img lazy">
-                        
-                    </a>
-                    <a href="big/2/house.jpg" title="">
-                        <img data-src="images/29.png" alt="" class="img lazy">
-                        
-                    </a>
-                    <a href="big/2/divan.jpg" title="">
-                        <img data-src="images/210.png" alt="" class="img lazy">
-                        
-                    </a>
+                        <div class="row">
+
+                            <a href="/big/2/sps6.jpg" title="">
+                                <img data-src="images/26.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/IMG_9002.jpg" title="">
+                                <img data-src="images/27.png" alt="" title="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/IMG_9008.jpg" title="">
+                                <img data-src="images/28.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/house.jpg" title="">
+                                <img data-src="images/29.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/divan.jpg" title="">
+                                <img data-src="images/210.png" alt="" class="img lazy">
+
+                            </a>
+                        </div>
+                        <div class="row">
+
+                            <a href="/big/2/sps6.jpg" title="">
+                                <img data-src="images/26.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/IMG_9002.jpg" title="">
+                                <img data-src="images/27.png" alt="" title="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/IMG_9008.jpg" title="">
+                                <img data-src="images/28.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/house.jpg" title="">
+                                <img data-src="images/29.png" alt="" class="img lazy">
+
+                            </a>
+                            <a href="big/2/divan.jpg" title="">
+                                <img data-src="images/210.png" alt="" class="img lazy">
+
+                            </a>
+                        </div>
                     </div>
-                </div>
             <div class="row">
-                <a class="read__more loadall" href="#">Читать полностью <i><img src="/images/5413.png"
+                <a class="read__more loadall" href="#">Больше фотографий <i><img src="/images/5413.png"
                alt=""></i> </a>
             </div>
         </div>
@@ -646,8 +676,8 @@
             </div>
             <div class="row">
                 <div class="urls">
-                    <a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1                 </a>
-                    <a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a>
+                    <a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}">ул. Ивана Захарова 12/1                 </a>
+                    <a href="/{{env('3PAGE','melik-karamova-40,40(1)')}}">ул. Мелик-Карамаова 40, 40/1</a>
                 </div>
             </div>
         </div>
@@ -693,8 +723,8 @@
                         <a href="#"> <i class="footer__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>38 микрорайон</a>
                     </li>
-                    <li role="presentation"><a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1</a> </li>
-                    <li role="presentation"><a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a></li>
+                    <li role="presentation"><a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}">ул. Ивана Захарова 12/1</a> </li>
+                    <li role="presentation"><a href="/{{env('3PAGE','melik-karamova-40,40(1)')}}">ул. Мелик-Карамаова 40, 40/1</a></li>
                 </ul>
             </div>
             <div class="footer__phone">
@@ -713,13 +743,13 @@
     </section>
 
     <div id="small-dialog" class="zoom-anim-dialog mfp-hide small-dialog">
-        <h1>Ожидайте звонка!</h1>
+        <h2>Ожидайте звонка!</h2>
         <p>Вы уже оставляли заявку, ожидайте
             <br> звонка менеджера в ближайшее время.</p>
     </div>
 
     <div id="small-dialog1" class="zoom-anim-dialog mfp-hide small-dialog">
-        <h1>Спасибо! </h1>
+        <h2>Спасибо! </h2>
         <p>Ваша заявка была принята, менеджер<br> перезвонит Вам в ближайшее время.</p>
     </div>
 

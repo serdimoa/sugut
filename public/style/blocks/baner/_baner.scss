@@ -16,7 +16,7 @@
     &__left{
         @include make-xs-column(8.5);
         .good__price{
-            margin-top: 67px;
+            margin-top: 25px;
             @include make-xs-column(9);
             &--harry{
                 color: #ffffff;
@@ -34,7 +34,7 @@
         }
         .arrow{
             @include make-xs-column(3);
-            margin-top: 67px;
+            margin-top: 100px;
 
             
         }

@@ -22,8 +22,8 @@
                         <li role="presentation" class="">
                             <a href="/">38 микрорайон</a>
                         </li>
-                        <li role="presentation" ><a href="/ivana-zaharova-12(1)"> ул. Ивана Захарова 12/1</a> </li>
-                        <li role="presentation" class="active"><a href="/melik-karamova-40,40(1)"><i class="footer__nav--geo">
+                        <li role="presentation" ><a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}"> ул. Ивана Захарова 12/1</a> </li>
+                        <li role="presentation" class="active"><a href="/{{env('3PAGE','melik-karamova-40,40(1)')}}"><i class="footer__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>ул. Мелик-Карамаова 40, 40/1</a></li>
                     </ul>
                 </div>
@@ -43,10 +43,10 @@
                 <div class="baner__left">
                     <div class="row">
                         <div class="good__price">
-                            <h1><p class="good__price--harry">Успейте купить
+                            <p class="good__price--harry">Успейте купить
                             </p>
                             <p class="good__price--where">квартиру в Сургуте</p>
-                            <p class="good__price--much">по цене от 42 000 руб./м&#178;!</p></h1>
+                            <p class="good__price--much">по цене от 42 000 руб./м&#178;!</p>
                         </div>
                         <div class="arrow">
                             <img src="images/arrow.png" alt="">
@@ -106,7 +106,7 @@
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input required class="name" id="header__name name--input" type="text" placeholder="Ваше имя">
+                            <input required class="name name--input" id="header__name " type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
@@ -169,8 +169,8 @@
                 </div>
                 <div class="text">
 
-                    <h2>Многоквартирные дома  <br>
-<b>по ул. Мелик-Карамова 40, 40/1</b></h2>
+                    <h1>Многоквартирные дома  <br>
+<b>по ул. Мелик-Карамова 40, 40/1</b></h1>
                     <span><img src="/images/plank.png"
               alt=""></span>                  
                     <p>  Жилой комплекс на пересечении улиц Мелик-Карамова и Щепеткина представляет собой два 25-этажных дома секционного типа. Другими словами, в каждом доме всего по одному подъезду. Из 274 квартир, находящихся в одном доме, более половины составляют студии и однокомнатные квартиры. Также есть варианты двухкомнатных и трехкомнатных квартир. Площадь квартир варьируется от 27 до 97 квадратных метров.</p>
@@ -252,8 +252,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row whiteblock">
+            <div class="whiteblock"><div class="row">
                 <h2 class="black">Покупать выгодно квартиры в нашем микрорайоне!</h2>
+                </div><div class="row">
                 <div class="icon--romb">
                     <img src="/images/portmone.png" alt="">
                     <h3>Самые низкие цены<br>
@@ -290,7 +291,7 @@
 </h3>
                     <p>Сроки выполнения ремонта
                         <br>от 1 недели на стадии оформления документов.</p>
-                </div>
+                </div></div>
             </div>
         </div>
     </section>
@@ -348,57 +349,57 @@
             </div>
             <div class="row mar30">
                 <div class="variant v2" style="margin-left:9%;">
-                    <a href="big/2/1variant.jpg" class="image-popup-vertical-fit" title="1 вариант">
+                    <a href="big/2/1variant.jpg" class="image-popup-vertical-fit" title="1 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/1variant.png" alt="">
                     </a>
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/2variant.jpg" class="image-popup-vertical-fit" title="2 вариант">
+                    <a href="big/2/2variant.jpg" class="image-popup-vertical-fit" title="2  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/2variant.png" alt="">
                     </a>
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/3variant.jpg" class="image-popup-vertical-fit" title="3 вариант">
+                    <a href="big/2/3variant.jpg" class="image-popup-vertical-fit" title="3  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/3variant.png" alt=""></a>
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/4variant.jpg" class="image-popup-vertical-fit" title="4 вариант">
+                    <a href="big/2/4variant.jpg" class="image-popup-vertical-fit" title="4 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/4variant.png" alt=""></a>
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/5variant.jpg" class="image-popup-vertical-fit" title="5 вариант">
+                    <a href="big/2/5variant.jpg" class="image-popup-vertical-fit" title="5 <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/5variant.png" alt=""></a>
                 </div>
             </div>
             <div class="row ">
                 <div class="variant v2">
-                    <a href="big/2/6variant.jpg" class="image-popup-vertical-fit" title="6 вариант">
+                    <a href="big/2/6variant.jpg" class="image-popup-vertical-fit" title="6  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/6variant.png" alt=""></a>
 
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/7variant.jpg" class="image-popup-vertical-fit" title="7 вариант">
+                    <a href="big/2/7variant.jpg" class="image-popup-vertical-fit" title="7  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/7variant.png" alt=""></a>
 
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/8variant.jpg" class="image-popup-vertical-fit" title="8 вариант">
+                    <a href="big/2/8variant.jpg" class="image-popup-vertical-fit" title="8  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/8variant.png" alt=""></a>
 
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/9variant.jpg" class="image-popup-vertical-fit" title="9 вариант">
+                    <a href="big/2/9variant.jpg" class="image-popup-vertical-fit" title="9  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/9variant.png" alt=""></a>
 
                 </div>
                 <div class="variant v2">
-                    <a href="big/2/10variant.jpg" class="image-popup-vertical-fit " title="10 вариант">
+                    <a href="big/2/10variant.jpg" class="image-popup-vertical-fit " title="10  <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="/images/10variant.png" alt=""></a>
 
                 </div>
                 
                 <div class="variant v2">
-                    <a href="big/2/10variant.jpg" class="image-popup-vertical-fit" title="11 вариант">
+                    <a href="big/2/10variant.jpg" class="image-popup-vertical-fit" title="11 вариант <a style='color:#fff;' target='_blank' href='/big/2/10variant.jpg'>(Скачать)</a>">
                         <img class="img-responsive" src="images/11variant.png" alt=""></a>
                     
 
@@ -646,9 +647,9 @@
                         
                         
                     </a>
-                </div>
-                <div class="row">
-                    <div id="lazy-container">
+                </div><div id="lazy-container">
+                    <div class="row">
+
                       <a href="/big/2/sps6.jpg" title="">
                         <img data-src="images/26.png" alt="" class="img lazy">
                         
@@ -670,10 +671,33 @@
                         
                     </a>
                     </div>
+                    <div class="row">
+
+                        <a href="/big/2/sps6.jpg" title="">
+                            <img data-src="images/26.png" alt="" class="img lazy">
+
+                        </a>
+                        <a href="big/2/IMG_9002.jpg" title="">
+                            <img data-src="images/27.png" alt="" title="" class="img lazy">
+
+                        </a>
+                        <a href="big/2/IMG_9008.jpg" title="">
+                            <img data-src="images/28.png" alt="" class="img lazy">
+
+                        </a>
+                        <a href="big/2/house.jpg" title="">
+                            <img data-src="images/29.png" alt="" class="img lazy">
+
+                        </a>
+                        <a href="big/2/divan.jpg" title="">
+                            <img data-src="images/210.png" alt="" class="img lazy">
+
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <a class="read__more loadall" href="#">Читать полностью <i><img src="/images/5413.png"
+                <a class="read__more loadall" href="#">Больше фотографий<i><img src="/images/5413.png"
                alt=""></i> </a>
             </div>
         </div>
@@ -689,7 +713,7 @@
             <div class="row">
                 <div class="urls">                              
                     <a href="/">38 микрорайон  </a>
-                    <a href="/ivana-zaharova-12(1)">ул. Ивана захарова, 12/1 </a>
+                    <a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}">ул. Ивана захарова, 12/1 </a>
                 </div>
             </div>
         </div>
@@ -734,8 +758,8 @@
                     <li role="presentation" >
                         <a href="/"> 38 микрорайон</a>
                     </li>
-                    <li role="presentation" ><a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1</a> </li>
-                    <li role="presentation" class="active"><a href="/melik-karamova-40,40(1)"> <i class="footer__nav--geo">
+                    <li role="presentation" ><a href="/{{env('2PAGE','ivana-zaharova-12(1)')}}">ул. Ивана Захарова 12/1</a> </li>
+                    <li role="presentation" class="active"><a href="/{{env('3PAGE','melik-karamova-40,40(1)}}"> <i class="footer__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>ул. Мелик-Карамаова 40, 40/1</a></li>
                 </ul>
             </div>
@@ -755,13 +779,13 @@
     </section>
 
     <div id="small-dialog" class="zoom-anim-dialog mfp-hide small-dialog">
-        <h1>Ожидайте звонка!</h1>
+        <h2>Ожидайте звонка!</h2>
         <p>Вы уже оставляли заявку, ожидайте
             <br> звонка менеджера в ближайшее время.</p>
     </div>
 
     <div id="small-dialog1" class="zoom-anim-dialog mfp-hide small-dialog">
-        <h1>Спасибо! </h1>
+        <h2>Спасибо! </h2>
         <p>Ваша заявка была принята, менеджер<br> перезвонит Вам в ближайшее время.</p>
     </div>
 

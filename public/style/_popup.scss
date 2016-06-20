@@ -541,7 +541,7 @@ button {
   }
 }
 
-#small-dialog {
+.small-dialog {
 	background: white;
 	padding: 20px 30px;
 	text-align: left;
@@ -549,11 +549,11 @@ button {
 	margin: 40px auto;
     border-radius: 5px;
 	position: relative;
-    h1{
+    h2{
         color: #005ea6;
         font: 700 30px PFBeauSansPro;
         text-align: center;
-        margin-top: 30x;
+        margin-top: 30px;
        
     }
     p{

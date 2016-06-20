@@ -250,6 +250,7 @@ $(document).ready(function () {
 
     $('.loadall').click(function(e) {
         e.preventDefault();
+        $(this).hide();
         $('.lazy').lazy({
             bind: "event",
             delay: 0
@@ -274,7 +275,9 @@ $(document).ready(function () {
     if ($('.toManager').length)
         $('.toManager').click(function (e) {
             e.preventDefault();
-            $('#baner').goTo()
+            $('#baner').goTo();
+            $('.baner__right').css( 'border', '10px solid #d86654');
+            $('.baner__right').css( 'border-radius', '10px');
 
         });
     if ($('#scrollToabout').length)

@@ -13,14 +13,20 @@
 
 
 
-Route::get('/','PageFirstController@index');
-Route::get('ivana-zaharova-12(1)','PageFirstController@index2');
-Route::get('melik-karamova-40,40(1)','PageFirstController@index3');
+Route::get(env('HOME','/'),
+    ['as'=>'onePage','uses'=>'PageFirstController@index']);
+
+Route::get(
+    env('2PAGE','ivana-zaharova-12(1)'),
+    ['as'=>'twoPage','uses'=>'PageFirstController@index2']);
+
+Route::get(
+    env('3PAGE','melik-karamova-40,40(1)'),
+    ['as'=>'threePage','uses'=>'PageFirstController@index3']);
+
+
+
 
 Route::post('header_form','SendEmailController@sendHeader');
-//Route::get('header_form','SendEmailController@sendHeader');
 
-Route::get('logout','AdminController@logout');
 
-$router->resource('admin', 'AdminController');
-$router->resource('dashboard', 'DashboardController');

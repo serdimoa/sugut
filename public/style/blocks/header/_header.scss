@@ -53,7 +53,7 @@
         }
     }
     &__phone{
-        @include make-xs-column(3);
+        @include make-xs-column(2.9);
         text-align: right;
         &--number{
             @include make-row();

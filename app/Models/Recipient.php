@@ -15,14 +15,18 @@ class Recipient extends Model
 {
     protected $table = 'recipient';
 
+    /**
+     * @return \___PHPSTORM_HELPERS\static|mixed
+     */
     public function getNextEmail(){
-        $data = Recipient::all();
-        $i = -1;
+        $data = Recipient::all();//получаем всех админов
+        $i = -1; //счетчик для переброса
         $count = count($data);
+
         foreach ($data as $key=>$value){
             $i++;
-            if ($value['last_recipient']===1){
-                echo $value['id'];
+
+            if ($value['last_recipient']==1){
                 Recipient::where('id',$value['id'])
                     ->update(['last_recipient' => 0]);
 
@@ -35,12 +39,9 @@ class Recipient extends Model
                     Recipient::where('id',$data[$i]['id'])
                         ->update(['last_recipient' => 1]);
                 }
-                return $value['email'];
+                return $value;
                 break;
             }
         }
-//        dd($data);
-
-
     }
 }

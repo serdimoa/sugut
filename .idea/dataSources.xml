@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="449442183">
+  <component name="DataSourceManagerImpl" format="xml" hash="3131748086">
     <data-source source="LOCAL" name="MySQL - surgut_laravel@localhost" uuid="7693b8e3-49b4-40b5-b127-d49a04ec297e">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>

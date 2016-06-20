@@ -5,22 +5,22 @@ namespace App\Http\Controllers;
 use App\Models\Recipient;
 use Config;
 use Mail;
-use PC;
 use Response;
 use App\Models\Client;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Session;
 
-//use Input;
 class SendEmailController extends Controller
 {
-    public function sendHeader(Request $request, Client $clientModel,Recipient $recipientModel){
-//    public function sendHeader1(Request $request, Client $clientModel, Recipient $recipientModel){
-
-//        $isActive = $clientModel->checkPhone($request->input('phone'));
+    /**
+     * @param Request $request
+     * @param Client $clientModel
+     * @param Recipient $recipientModel
+     * Возвращает 1 если ОК, Возвращает 2 если клиент уже есть в Базе
+     */
+    public function sendHeader(Request $request, Client $clientModel, Recipient $recipientModel){
         $isUser = Client::where('phone',$request->input('phone'))->first();
-//        $user = 'test';
         if ($isUser){
             echo '2';
         }
@@ -33,10 +33,8 @@ class SendEmailController extends Controller
             $user->save();
             $selectUser = Client::where('phone',$request->input('phone'))->first();
             $ID = $selectUser->id;
-//            PC::debug(Config::get('mail'));
             $email = $recipientModel->getNextEmail();
-            $data = ['email' => $email];
-            PC::debug($selectUser);
+            $data = ['email' => $email['email'],'name'=>$email['name']];
             Mail::send('emeiltoadmin',
                 [
                     'id'=>$selectUser->id,
@@ -45,19 +43,40 @@ class SendEmailController extends Controller
                     'page'=>$selectUser->page,
                     'formName'=>$selectUser->formName,
                     'created_at'=>$selectUser->created_at,
+                    'emialto'=> $data['email'],
+                    'adminName'=>$data['name']
                 ],
                 function($message) use ($data)
                 {
-                    $message->from('my.custom@yandex.ru', 'Site');
+                    $message->from(env('MAIL_USERNAME'), 'Site');
                     $message->to($data['email'])->subject('Заявка с сайта');
                 }
             );
+
+            Mail::send('emeiltoadmin',
+                [
+                    'id'=>$selectUser->id,
+                    'name'=>$selectUser->name,
+                    'phone'=>$selectUser->phone,
+                    'page'=>$selectUser->page,
+                    'formName'=>$selectUser->formName,
+                    'created_at'=>$selectUser->created_at,
+                    'emialto'=> $data['email'],
+                    'adminName'=>$data['name']
+                ],
+                function($message) use ($data)
+                {
+                    $message->from(env('MAIL_USERNAME'), 'Site');
+                    $message->to(env("ADMIN"))->subject('Заявка с сайта');
+                }
+            );
+            $updateUser = Client::find($ID);
+            $updateUser->admin = $data['email'];
+            $updateUser->save();
             echo '1';
 
         }
         return;
     }
-    public function sendHeader1(Recipient $rec){
-       $data = $rec->getNextEmail();
-    }
+
 }
