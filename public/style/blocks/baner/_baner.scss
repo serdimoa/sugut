@@ -9,10 +9,10 @@
     margin-bottom: 39px;
 }
 .baner{
-    height: 660px;
     padding-bottom: 25px;
-    background: url(/images/background-1.png);
-    
+    background-position: 0 0;
+    background-size: cover;
+
     &__left{
         @include make-xs-column(8.5);
         .good__price{

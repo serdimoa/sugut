@@ -14,6 +14,8 @@
 
 
 Route::get('/','PageFirstController@index');
+Route::get('ivana-zaharova-12(1)','PageFirstController@index2');
+Route::get('melik-karamova-40,40(1)','PageFirstController@index3');
 
 Route::post('header_form','SendEmailController@sendHeader');
 //Route::get('header_form','SendEmailController@sendHeader');

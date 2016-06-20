@@ -22,13 +22,17 @@ class AdminSeeder extends Seeder {
     public function run()
     {
         Recipient::create([
-            'email'=>'kravcov@1aitisha.ru',
+            'email'=>'kravcov@aitisha.ru',
             'last_recipient' => 0
         ]);
 
         Recipient::create([
-            'email'=>'kravcov@13aitisha.ru',
+            'email'=>'serdimoa@gmail.com',
             'last_recipient' => 0
+        ]);
+        Recipient::create([
+            'email'=>'mediamarket86@gmail.com',
+            'last_recipient' => 1
         ]);
 
 

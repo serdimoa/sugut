@@ -13,4 +13,12 @@ class PageFirstController extends Controller
     public function index(){
         return view('index');
     }
+
+    public function index2(){
+        return view('index2');
+    }
+
+    public function index3(){
+        return view('index3');
+    }
 }

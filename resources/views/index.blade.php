@@ -19,15 +19,15 @@
                 <div class="header__nav">
                     <ul class="nav nav-tabs">
                         <li role="presentation" class="active">
-                            <a href="#"> <i class="header__nav--geo">
+                            <a href="/"> <i class="header__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>38 микрорайон</a>
                         </li>
-                        <li role="presentation"><a href="#">ул. Ивана Захарова 12/1</a> </li>
-                        <li role="presentation"><a href="#">ул. Мелик-Карамаова 40, 40/1</a></li>
+                        <li role="presentation"><a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1</a> </li>
+                        <li role="presentation"><a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a></li>
                     </ul>
                 </div>
                 <div class="header__phone">
-                    <div class="header__phone--number">8 (3462) 600-190</div>
+                    <div class="header__phone--number"><a href="tel:+73462600190">8 (3462) 600-190</a></div>
                     <div class="header__phone--label">Отдел продаж</div>
                     <div class="header__phone--address">Сургут, Тюменский тракт, 2/1</div>
                 </div>
@@ -35,7 +35,8 @@
         </div>
         <span class="line"></span>
     </div>
-    <section class="baner" id="baner">
+    <section class="baner" style="background: url(/images/background-1.jpg);background-position: 0 0;
+    background-size: cover;" id="baner">
         <div class="container">
             <div class="row">
                 <div class="baner__left">
@@ -56,14 +57,14 @@
                             <p>Первоначальный взнос от 64 000 рублей*</p>
                         </div>
                         <div class="enes__image">
-                            <img src="/images/logo-enes20113.png" class="img-responsive" alt="">
+                            <a id="toabout" href="#about__micro"><img src="/images/logo-enes20113.png" class="img-responsive" alt=""></a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="good__list">
                             <ul>
                                 <li>Только готовое жилье</li>
-                                <li>Квартиры от 28 до 72 м2</li>
+                                <li>Квартиры от 28 до 72 м&#178;</li>
                                 <li>Безопасные детские площадки</li>
                                 <li>Школа - детский сад, ТРЦ Аура</li>
                                 <li>Доступный подземный паркинг</li>
@@ -99,16 +100,17 @@
                         <br>при подаче заявки через сайт.
                     </div>
 
-                    <form action="/header_form" id="headerForm">
+                    <form action="/header_form" class="Forms" id="headerForm">
+                        <input type="hidden" class="form__name--input" value="Форма в шапке сайта">
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input class="name" id="header__name" type="text" placeholder="Ваше имя">
+                            <input required class="name" id="header__name name--input" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
                     alt=""></i>
-                            <input class="name" id="header__phone" type="text" placeholder="+7 ">
+                            <input  required class="name phone--input" id="header__phone" type="text" placeholder="+7 ">
                         </div>
                         <input type="submit" value="Оставить заявку" class="baner__form--submit">
                     </form>
@@ -158,7 +160,7 @@
         <div class="container">
             <div class="row">
                 <div class="images">
-                    <img src="/images/imgtochange.png" class="img-responsive" alt="">
+                    <img src="/images/imgtochange.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="text">
                     <h2>О жилом комплексе <br>
@@ -166,7 +168,10 @@
                     <span><img src="/images/plank.png"
               alt=""></span>
                     <p>38-й мкр. расположен в очень удачном месте относительно городской инфраструктуры. Рядом находится ТРЦ «Аура», недалеко располагаются железнодорожный вокзал и выезд из города. В непосредственной близости имеется лесок, который в ближайшем будущем станет прекрасным мини-парком. Кроме того, тут возведен детский сад (их здесь предполагается построить еще два, также планируется строительство школы) — то есть проблем с определением мест, куда будет ходить ребенок, нет. В-третьих, на территории комплекса имеется большое дворовое пространство с детскими игровыми площадками, построен двухуровневый паркинг, а пешеходные дорожки во дворах отделены от проезжей зоны для безопасности жильцов. Также можно отметить, что дома 38-го микрорайона построены по мировым стандартам энергоэффективности, имеют специальную защиту от промерзания стен и оснащены новейшим оборудованием, позволяющим рационально расходовать электричество, воду и тепло.</p>
-                    <a class="read__more" href="#">Читать полностью <i><img src="/images/5413.png"
+                    <div class="reed__more--content">
+                        <p>38-й мкр. расположен в очень удачном месте относительно городской инфраструктуры. Рядом находится ТРЦ «Аура», недалеко располагаются железнодорожный вокзал и выезд из города. В непосредственной близости имеется лесок, который в ближайшем будущем станет прекрасным мини-парком. Кроме того, тут возведен детский сад (их здесь предполагается построить еще два, также планируется строительство школы) — то есть проблем с определением мест, куда будет ходить ребенок, нет. В-третьих, на территории комплекса имеется большое дворовое пространство с детскими игровыми площадками, построен двухуровневый паркинг, а пешеходные дорожки во дворах отделены от проезжей зоны для безопасности жильцов. Также можно отметить, что дома 38-го микрорайона построены по мировым стандартам энергоэффективности, имеют специальную защиту от промерзания стен и оснащены новейшим оборудованием, позволяющим рационально расходовать электричество, воду и тепло.</p>
+                    </div>
+                    <a class="read__more" id="reeds" href="#">Читать полностью <i><img src="/images/5413.png"
                alt=""></i> </a>
                 </div>
             </div>
@@ -280,9 +285,9 @@
                 <h2>Дома сданы, отсутствуют инвестиционные риски</h2>
             </div>
             <div class="row">
-                <div class="video__image">
+                <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="video__image">
                     <img class="img-responsive" src="/images/video__image.png" alt="">
-                </div>
+                </a>
                 <div class="text">
                     <p>Одно из последних предложений, утверждённых президентом страны, было озвучено в начале мая — уголовная ответственность за обман дольщиков. Но даже такие радикальные методы в сложных экономических условиях, когда многие строительные компании буквально сводят концы с концами, не всегда помогают. Поэтому на том же госсовете было озвучено — лучше покупать уже готовое жильё. Только такие сделки могут сегодня гарантировать отсутствие проблем при покупке квартиры.</p>
                     <p>
@@ -302,16 +307,18 @@
                 </div>
                 <div class="arrow"><img src="/images/arrowfast.png " alt=""></div>
                 <div class="form">
-                    <form action="">
+                    <form class="Forms" action="">
+                        <input type="hidden" class="form__name--input" value="Торопитесь пока есть выбор">
+
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="Ваше имя">
+                            <input required class="name name--input" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="+7 ">
+                            <input required class="name phone--input" type="text" placeholder="+7 ">
                         </div>
                         <input type="submit" value="Оставить заявку" href="#small-dialog" class="baner__form--submit">
                     </form>
@@ -390,17 +397,19 @@
                     <div class="img">
 
                         <img src="/images/sber.png" alt=""></div>
-                    <div class="toanim">
+                    <div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 15%</span></p>
                         <p>Процентная ставка:<span>от 13,5%</span></p>
                         <a href="#" class="greybtn">до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub">Ипотека плюс материнский капитал.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
                 <div class="bank">
@@ -408,51 +417,57 @@
 
                         <img src="/images/hanty.png" alt="">
                     </div>
-                    <div class="toanim">
-                        <p>Первоначальный взнос:<span>от 20%</span></p>
+                    <div class="panel ">
+                        <div class="front card">           
+                                    <p>Первоначальный взнос:<span>от 20%</span></p>
                         <p>Процентная ставка:<span>от 13.5%</span></p>
                         <a href="#" class="greybtn">От 5 до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub">Ипотека плюс материнский капитал.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
                 <div class="bank">
                     <div class="img">
                         <img src="/images/sngb.png" alt="">
                     </div>
-                    <div class="toanim">
+                    <div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 10%</span></p>
                         <p>Процентная ставка:<span>от 13,5%</span></p>
                         <a href="#" class="greybtn">от 1 до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub">Акция с даром, с ремонтом.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
                     </div>
+                        </div>
                 </div>
                 <div class="bank">
                     <div class="img">
                         <img src="/images/uralsib.png" alt="">
                     </div>
-                    <div class="toanim">
+                       <div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 20%</span></p>
                         <p>Процентная ставка:<span>от 13,5%</span></p>
                         <a href="#" class="greybtn">от 3 до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub">Снижение % стаки для бюджетников.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
 
@@ -463,17 +478,19 @@
                         <img src="/images/raifa.png" alt="">
 
                     </div>
-                    <div class="toanim">
+                    <div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 15%</span></p>
                         <p>Процентная ставка:<span>от 12,25%</span></p>
                         <a href="#" class="greybtn">до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub2">Снижение % стаки для бюджетников.Работают с даром, включают ремонт, свои льготные условия по страховке, созаемщиками могут быть гражданские супруги.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
                 <div class="bank long">
@@ -481,18 +498,19 @@
                         <img src="/images/vtb.png" alt="">
 
 
-                    </div>
-                    <div class="toanim">
+                    </div><div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 15%</span></p>
                         <p>Процентная ставка:<span>от 14%</span></p>
                         <a href="#" class="greybtn">от 1 до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub2">Акция с даром, с ремонтом.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
                 <div class="bank long">
@@ -500,17 +518,19 @@
                         <img src="/images/zaps.png" alt="">
 
                     </div>
-                    <div class="toanim">
+                    <div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 20%</span></p>
                         <p>Процентная ставка:<span>от 13,5%</span></p>
                         <a href="#" class="greybtn">до 30 лет</a>
                         <h3>Особые условия:</h3>
                         <div class="sub2">Снижение %-й ставки для зарплатников.</div>
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
                 <div class="bank long">
@@ -518,8 +538,8 @@
                         <img src="/images/gazprom.png" alt="">
 
 
-                    </div>
-                    <div class="toanim">
+                    </div><div class="panel ">
+                    <div class="front card">
                         <p>Первоначальный взнос:<span>от 20%</span></p>
                         <p>Процентная ставка:<span>от 13,5%</span></p>
                         <a href="#" class="greybtn">от 3 до 30 лет</a>
@@ -528,12 +548,13 @@
 
                         </div>
 
-
+                    
                     </div>
-                    <div class="onbankhover">
+                    <div class="back card">
                         <p class="phone"><a href="tel:73462398301">+7 (3462) 39-83-01</a></p>
                         <p class="time">пн-пт: 9:00-17:00 (без перерыва) </p>
                         <p class="site"><a href="http://www.sngb.ru">www.sngb.ru</a></p>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -586,7 +607,31 @@
                 </div>
             </div>
             <div class="row">
-                <a class="read__more" href="#">Читать полностью <i><img src="/images/5413.png"
+                    <div id="lazy-container">
+                      <a href="/big/2/sps6.jpg" title="">
+                        <img data-src="images/26.png" alt="" class="img lazy">
+                        
+                    </a>
+                    <a href="big/2/IMG_9002.jpg" title="">
+                        <img data-src="images/27.png" alt="" title="" class="img lazy">
+                        
+                    </a>
+                    <a href="big/2/IMG_9008.jpg" title="">
+                        <img data-src="images/28.png" alt="" class="img lazy">
+                        
+                    </a>
+                    <a href="big/2/house.jpg" title="">
+                        <img data-src="images/29.png" alt="" class="img lazy">
+                        
+                    </a>
+                    <a href="big/2/divan.jpg" title="">
+                        <img data-src="images/210.png" alt="" class="img lazy">
+                        
+                    </a>
+                    </div>
+                </div>
+            <div class="row">
+                <a class="read__more loadall" href="#">Читать полностью <i><img src="/images/5413.png"
                alt=""></i> </a>
             </div>
         </div>
@@ -601,8 +646,8 @@
             </div>
             <div class="row">
                 <div class="urls">
-                    <a href="#">ул. Ивана Захарова 12/1                 </a>
-                    <a href="#">ул. Мелик-Карамаова 40, 40/1</a>
+                    <a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1                 </a>
+                    <a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a>
                 </div>
             </div>
         </div>
@@ -617,16 +662,18 @@
                 </div>
                 <div class="arrow"><img src="/images/A46-TrendArrow-Orange-GoUp.png" alt=""></div>
                 <div class="form">
-                    <form action="">
+                    <form class="Forms" action="">
+                        <input type="hidden" class="form__name--input" value="Форма в футере сайта">
+
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/User.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="Ваше имя">
+                            <input required class="name name--input" type="text" placeholder="Ваше имя">
                         </div>
                         <div class="baner__form--input">
                             <i class="baner__form--icon"><img src="/images/Iphone.png"
                     alt=""></i>
-                            <input class="name" type="text" placeholder="+7 ">
+                            <input required class="name phone--input"  type="text" placeholder="+7 ">
                         </div>
                         <input type="submit" value="Заказать звонок менеджера" class="baner__form--submit">
                     </form>
@@ -646,12 +693,12 @@
                         <a href="#"> <i class="footer__nav--geo">
                             <img src="images/Fill.png" alt="geo-icon"></i>38 микрорайон</a>
                     </li>
-                    <li role="presentation"><a href="#">ул. Ивана Захарова 12/1</a> </li>
-                    <li role="presentation"><a href="#">ул. Мелик-Карамаова 40, 40/1</a></li>
+                    <li role="presentation"><a href="/ivana-zaharova-12(1)">ул. Ивана Захарова 12/1</a> </li>
+                    <li role="presentation"><a href="/melik-karamova-40,40(1)">ул. Мелик-Карамаова 40, 40/1</a></li>
                 </ul>
             </div>
             <div class="footer__phone">
-                <div class="footer__phone--number">8 (3462) 600-190</div>
+                <div class="footer__phone--number"><a href="tel:+73462600190">8 (3462) 600-190</a></div>
                 <div class="footer__phone--label">Отдел продаж</div>
                 <div class="footer__phone--address">Сургут, Тюменский тракт, 2/1</div>
             </div>
@@ -677,9 +724,9 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="{!! asset('popup.js') !!}"></script>
-    <script src="{!! asset('cookie.js') !!}"></script>
-    <script src="{!! asset('masked.js') !!}"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.0/jquery.lazy.min.js"></script>
+
+  
     <script src="{!! asset('index.js') !!}"></script>
 </body>
 
